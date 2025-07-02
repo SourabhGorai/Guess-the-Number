@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #43cea2, #185a9d);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-container {
+  background-color: #ffffff;
+  padding: 50px 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 35px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.description {
+  color: #444;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.input-section {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+  justify-content: center;
+}
+
+input[type="number"] {
+  padding: 10px;
+  width: 120px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 16px;
+  background-color: #185a9d;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #123f6f;
+}
+
+.status-section p {
+  margin-top: 15px;
+  color: #333;
+  font-size: 20px;
+}
+
+.restart-btn {
+  margin-top: 20px;
+  background-color: #f44336;
+}
+
+.restart-btn:hover {
+  background-color: #c62828;
+}
