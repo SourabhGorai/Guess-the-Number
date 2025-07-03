@@ -8,7 +8,7 @@ const guessesLeft = document.getElementById("guessesRemaining");
 const restartBtn = document.getElementById("restartGame");
 
 // let prevGuessesArr = [];
-let numGuessL = 10;
+let numGuessL = 5;
 
 let playGame = true;
 
